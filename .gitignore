@@ -1,0 +1,26 @@
+# Entornos Virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Caché y archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Carpeta de datos crudos (excluida pero se mantiene la estructura)
+data/raw/*
+!data/raw/.gitkeep
+
+# Modelos y pesos pesados (excluidos pero se mantiene la estructura)
+models/*
+!models/.gitkeep
+
+# Archivos de sistema y configuraciones locales
+.DS_Store
+Thumbs.db
+.vscode/
